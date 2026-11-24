@@ -1,0 +1,121 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #eef1f5;
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    width: 80%;
+    max-width: 900px;
+    margin: 40px auto;
+    background-color: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+/* Header */
+header {
+    text-align: center;
+    background-color: #193b5a;
+    color: white;
+    padding: 30px;
+    border-radius: 8px;
+}
+
+header h1 {
+    font-size: 32px;
+    margin-bottom: 5px;
+}
+
+header h2 {
+    font-size: 18px;
+    font-weight: normal;
+    margin-bottom: 12px;
+}
+
+header p {
+    font-size: 14px;
+}
+
+/* Sections */
+section {
+    margin-top: 30px;
+}
+
+section h3 {
+    color: #193b5a;
+    font-size: 21px;
+    border-bottom: 2px solid #193b5a;
+    padding-bottom: 8px;
+    margin-bottom: 15px;
+}
+
+/* Items */
+.item {
+    margin-bottom: 18px;
+}
+
+.item h4 {
+    color: #222;
+    font-size: 16px;
+}
+
+.item span {
+    color: #777;
+    font-size: 13px;
+}
+
+.item p {
+    font-size: 14px;
+    margin-top: 4px;
+}
+
+/* Skills */
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.skills span {
+    background-color: #e5edf5;
+    color: #193b5a;
+    padding: 8px 15px;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    margin-top: 35px;
+    padding-top: 15px;
+    border-top: 1px solid #ddd;
+    color: #777;
+    font-size: 13px;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+    .container {
+        width: 95%;
+        padding: 20px;
+    }
+
+    header h1 {
+        font-size: 25px;
+    }
+
+    header h2 {
+        font-size: 15px;
+    }
+}
